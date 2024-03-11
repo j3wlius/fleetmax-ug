@@ -32,8 +32,8 @@ const Navbar = () => {
                 smooth={true}
                 offset={-64}
                 duration={500}
-                className="text-gray-600 hover:text-[#857aef] transition-colors cursor-pointer"
-                activeClass="!text-[#e854e4]"
+                className="text-gray-600 hover:text-[#82D173] transition-colors cursor-pointer"
+                activeClass="!text-[#C42021] !font-bold"
               >
                 {item.name}
               </Link>
@@ -45,7 +45,7 @@ const Navbar = () => {
           <div className="md:hidden flex items-center">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-gray-600 hover:text-[#857aef]"
+              className="text-gray-600 hover:text-[#C42021]"
             >
               {isOpen ? <HiX size={24} /> : <HiMenu size={24} />}
             </button>
