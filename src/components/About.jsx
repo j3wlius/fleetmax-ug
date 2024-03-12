@@ -22,7 +22,7 @@ const About = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <FadeInSection direction="left">
             <div className="bg-white p-6 rounded-lg shadow-md">
-              <div className="text-[#857aef] text-4xl mb-4">10+</div>
+              <div className="text-[#82D173] text-4xl mb-4">10+</div>
               <h3 className="text-xl font-semibold mb-2">Years of Expertise</h3>
               <p className="text-gray-600">
                 Delivering exceptional service with quality and care
@@ -32,7 +32,7 @@ const About = () => {
 
           <FadeInSection>
             <div className="bg-white p-6 rounded-lg shadow-md">
-              <div className="text-[#857aef] text-4xl mb-4">1,000+</div>
+              <div className="text-[#82D173] text-4xl mb-4">1,000+</div>
               <h3 className="text-xl font-semibold mb-2">Satisfied Clients</h3>
               <p className="text-gray-600">
                 Trusted for custom prints, designs, and reliable car rentals
@@ -42,7 +42,7 @@ const About = () => {
 
           <FadeInSection direction="right">
             <div className="bg-white p-6 rounded-lg shadow-md">
-              <div className="text-[#857aef] text-4xl mb-4">24/7</div>
+              <div className="text-[#82D173] text-4xl mb-4">24/7</div>
               <h3 className="text-xl font-semibold mb-2">Customer Support</h3>
               <p className="text-gray-600">
                 Here for you anytime, ensuring seamless experiences
